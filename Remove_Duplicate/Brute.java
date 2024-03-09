@@ -9,7 +9,7 @@ public class Brute {
             hashSet.add(arr[i]);
         }
         for(int num:hashSet){
-            System.out.print(num+" ");//To insert and set it takes nlogn
+            System.out.print(num+" ")
                                       //To print the element take n therefore total complexity=o(nlogn+n) 
         }
         
